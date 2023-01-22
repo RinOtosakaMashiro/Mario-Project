@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./src/images/favicon.ico" type="image/x-icon"/>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet"/>
+
+    <link rel="stylesheet" href="./src/css/reset.css"/>
+
+    <link rel="stylesheet" href="./src/css/styles.css"/>
+
+    <link rel="stylesheet" href="./src/css/responsive.css"/>
+
+    <title>Super Mario Bros - The Movie</title>
+  </head>
+  <body>
+    <div class="background-video">
+      <video class="background-video-1" autoplay loop muted>
+        <source
+          src="./src/videos/video-background-1.mp4"
+          type="video/mp4"
+          />
+      </video>
+    </div>
+    <header class="header">
+      <a>
+        <img
+          class="icon"
+          src="./src/images/logo-mario-hat.png"
+        />
+      </a>
+      <nav>
+        <ul class="menu">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <div class="info">
+        <img class="image-title" src="./src/images/title.png"/>
+        <p class="description">
+          Mario is a plumber along with his brother Luigi. One day, they end up
+          in the Mushroom Kingdom, ruled by Princess Peach, but threatened by
+          the King of Koopas, who does everything to reign everywhere.
+        </p>
+        <button class="button-trailer">See the trailer</button>
+      </div>
+      <img
+        class="characters"
+        src="./src/images/super-mario-chars.png"
+      />
+      <div class="pop-up1">
+        <div class="content-pop-up1">
+          <span class="close-pop-up1">X</span>
+          <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/UvDvAv0qvRM" title="Oficial Trailer" frameborder="1" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen></iframe>
+        </div>
+      </div>
+    </main>
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
